@@ -1,0 +1,7 @@
+<p>List name:<%= @list.name%></p>
+<p>List ID:<%= @list.id%></p>
+
+
+
+<%= link_to 'Back', lists_path %> |
+<%= link_to 'Leave a review', new_list_bookmark_path(@list) %>
